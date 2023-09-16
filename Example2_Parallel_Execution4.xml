@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelExecution"     parallel="tests"> // we can 3 or 4 classes if we go for the we will get error
+  
+  <test  name="Test1">
+    <classes>
+      <class name="TestNG_5.Example2_Parallel"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+   <test  name="Test2">
+    
+    <classes>
+      
+      <class name="TestNG_5.Example2_Parallel2"/>
+    </classes>
+  
+  </test> <!-- Test -->
+
+
+
+
+</suite> <!-- Suite -->
